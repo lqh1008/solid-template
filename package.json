@@ -1,0 +1,22 @@
+{
+  "name": "solid-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.14.1",
+    "oxlint": "^0.6.1",
+    "solid-js": "^1.8.18"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
