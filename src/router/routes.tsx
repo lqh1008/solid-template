@@ -1,7 +1,6 @@
 import { RouteDefinition } from "@solidjs/router";
 import { lazy } from "solid-js";
 import { Navigate } from '@solidjs/router';
-// const navigate =  useNavigate()
 
 export const routes: RouteDefinition[] = [
   {
@@ -14,6 +13,10 @@ export const routes: RouteDefinition[] = [
       <Navigate href={() => {
         return "/users"
       }} />
+  },
+  {
+    path: "/login",
+    component: lazy(() => import("@/pages/login.tsx")),
   },
   {
     path: "/users",

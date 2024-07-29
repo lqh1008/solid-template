@@ -6,7 +6,7 @@ interface IProps {
 
 const Users: Component<IProps> = ({ children }) => {
     return (
-        <div>
+        <div class="flex center  items-center justify-center h-screen w-screen">
             <h1>Users Page</h1>
             <p>Welcome to the users page.</p>
             {children}
