@@ -48,4 +48,13 @@ export const routes: RouteDefinition[] = [
   //     path: "/*all",
   //     component: lazy(() => import("/pages/[...all].js")),
   //   },
+
+  {
+    path: "/introduce",
+    component: lazy(() => import("@/pages/introduce.tsx")),
+  },
+  {
+    path: "/solar-system",
+    component: lazy(() => import("@/pages/solar-system.tsx")),
+  }
 ];

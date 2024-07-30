@@ -11,13 +11,16 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.14.1",
+    "@types/three": "^0.167.1",
     "clsx": "^2.1.1",
     "oxlint": "^0.6.1",
-    "solid-js": "^1.8.18"
+    "solid-js": "^1.8.18",
+    "three": "^0.167.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.40",
+    "postcss-px-to-viewport": "^1.1.1",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.2.2",
     "vite": "^5.3.4",
